@@ -1,0 +1,20 @@
+!!!!!!!!!!!!   Compilation   !!!!!!!!!!!!!!
+
+[root@system 6Sense_bazel]# bazel build //:bin
+Starting local Bazel server and connecting to it...
+INFO: Analyzed target //:bin (18 packages loaded, 84 targets configured).
+INFO: Found 1 target...
+Target //:bin up-to-date:
+  bazel-bin/bin
+INFO: Elapsed time: 9.175s, Critical Path: 0.05s
+INFO: 5 processes: 5 internal.
+INFO: Build completed successfully, 5 total actions
+[root@system 6Sense_bazel]#
+
+
+!!!!!!!!!!!!   Execution   !!!!!!!!!!!!!!
+
+[root@system 6Sense_bazel]# bazel-bin/bin
+Hello world. Welcome to 6Sense :)
+[root@system 6Sense_bazel]#
+
